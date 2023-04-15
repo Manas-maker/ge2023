@@ -1,12 +1,22 @@
 body {
-    padding: 2rem 0px;
+    padding: 0px;
     margin: 0px;
     background-color: #a12a09;
     font-family: 'Limelight', cursive;
 }
 
+h1 {
+    margin: 0px;
+}
 .cover {
-    color: #011a20;
+    color: #044354;
+    height: 100vh;
+    z-index: 1;
+    background-color: #a12a09;
+    font-size:300%;
+    position: fixed;
+    width: 40vw;
+    padding-top: 0vh;
 }
 .song {
     width: 23rem;
@@ -17,6 +27,7 @@ body {
     color: #453a2f;
     justify-content: space-between;
     padding: 4px;
+    border: solid #453a2f 2px;
 }
 
 .circle {
@@ -34,11 +45,15 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-evenly;
-    margin: auto;
+    margin-left: 40vw;
     width: 46vw;
     min-height: 100vh;
+    gap: 2px;
 }
 
+.name {
+    font-size: large;
+}
 .bar {
     height: 95vh;
     width: 4rem;
@@ -47,12 +62,13 @@ body {
     background-clip: content-box;
     background-size: contain;
     background-repeat: repeat;
-    position: fixed;
     border-width: 6px;
     border-style: solid;
     border-color: #674a26;
-    left: 49vw;
+    position: fixed;
+    left: 63vw;
     top: 1.5rem;
+    z-index: -1;
 }
 
 .left {
