@@ -1,8 +1,12 @@
 body {
-    padding: 4rem 0px;
+    padding: 2rem 0px;
     margin: 0px;
     background-color: #a12a09;
     font-family: 'Limelight', cursive;
+}
+
+.cover {
+    color: #011a20;
 }
 .song {
     width: 23rem;
@@ -44,6 +48,9 @@ body {
     background-size: contain;
     background-repeat: repeat;
     position: fixed;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #674a26;
     left: 49vw;
     top: 1.5rem;
 }
@@ -56,12 +63,13 @@ body {
 .right {
     align-self: end;
     flex-direction: row;
+    text-align: right;
 }
 
 .left:hover {
-    transform: translateX(-8px);
+    transform: translateX(8px);
 }
 
 .right:hover {
-    transform: translateX(8px);
+    transform: translateX(-8px);
 }
