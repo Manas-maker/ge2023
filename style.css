@@ -1,0 +1,67 @@
+body {
+    padding: 4rem 0px;
+    margin: 0px;
+    background-color: #a12a09;
+    font-family: 'Limelight', cursive;
+}
+.song {
+    width: 23rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    background-color: #dfbb99;
+    color: #453a2f;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.circle {
+    width: 1vw;
+    height: 1vw;
+    border-width: 0.5vw;
+    border-radius: 50%;
+    border-color: #453a2f;
+    border-style: solid;
+}
+
+.main {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 46vw;
+    min-height: 100vh;
+}
+
+.bar {
+    height: 95vh;
+    width: 4rem;
+    border-radius: 4rem;
+    background-image: url("simple_art_deco_geometric_23.svg");
+    background-clip: content-box;
+    background-size: contain;
+    background-repeat: repeat;
+    position: fixed;
+    left: 49vw;
+    top: 1.5rem;
+}
+
+.left {
+    align-self: start;
+    flex-direction: row-reverse;
+}
+
+.right {
+    align-self: end;
+    flex-direction: row;
+}
+
+.left:hover {
+    transform: translateX(-8px);
+}
+
+.right:hover {
+    transform: translateX(8px);
+}
