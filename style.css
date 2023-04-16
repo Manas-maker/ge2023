@@ -9,8 +9,8 @@ h1 {
     margin: 0px;
 }
 .cover {
-    /*color: #263832;*/
-    color: #044354;
+    color: #263832;
+    /*color: #044354;*/
     height: 100vh;
     z-index: 1;
     background-color: #a12a09;
